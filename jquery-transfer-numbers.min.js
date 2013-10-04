@@ -4,7 +4,7 @@
  *
  * Licensed under The MIT License
  *
- * @version         1.0.0
+ * @version         1.0.2
  * @since           10-03-2013
  * @author          Tom Rutka
  * @documentation   http://RunAstartup.com
