@@ -1,7 +1,7 @@
 {
     "name": "transfer-numbers",
     "title": "Transfer Numbers Plugin",
-    "description": "jQuery Transfer Numbers is a plugin that transfers numbers by flying from one element to another.",
+    "description": "jQuery Transfer Numbers is a plugin that flies numbers from location to another while adjusting their respective values.",
     "keywords": [
         "reallocate",
         "transfer",
