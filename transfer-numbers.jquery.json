@@ -10,7 +10,7 @@
         "counter",
         "decrement"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": {
         "name": "Tom Rutka",
         "url": "http://runastartup.com"
@@ -22,7 +22,7 @@
         }
     ],
     "homepage": "http://runastartup.com",
-    "docs": "https://github.com/rutkat/transfer-numbers",
+    "demo": "http://runastartup.com/transfer-numbers",
     "download": "https://github.com/rutkat/transfer-numbers",
     "dependencies": {
         "jquery": ">=2.0.0"
