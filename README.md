@@ -33,25 +33,33 @@ Initialize the plugin by placing it inside an event listener.  The binding or el
 ```javascript
  $('#origin').click( function() {
 
-    $(this).transferN({ target: '#destination'});
+    $(this).transferN(); // Number will countdown to zero
 
  });
 ``` 
 
-## Basic usage 
+## Advanced usage 
 
-The optional and second parameter is the speed.  You may specify any speed duration in milliseconds:
+The optional target parameter defines the target element.  You may specify any speed duration in milliseconds, and third parameter is a boolean for flying values to the target element:
 ```javascript
  $('#origin').click( function() {
 
-    $(this).transferN({ target: '#destination', speed: 1000 }); // 1 second per flying digit
+    $(this).transferN({ target: '#destination', speed: 1000, fly: false }); // 1 second per flying digit
 
  });
 ```
 
+
 For a demonstration of usage and examples visit [the demo page](http://runastartup.com/transfer-numbers/)
 
 ## Change Log
+1.2.2
+```html
+  -Optional flying
+  -More accurate count by allowing one concurrent transfer
+  -Target element no longer required
+  -Removed event listener after first fire to prevent error
+```
 1.0.0
 ```html
   -Public Release
